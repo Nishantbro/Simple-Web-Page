@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Charts</title>
+</head>
+<body>
+    <div class="container">
+        <div class="chart">
+            <canvas id="barchart" width="300" height="300"></canvas>
+        </div>
+        <div class="chart">
+            <canvas id="doughnut" width="300" height="300"></canvas>
+        </div>
+        <div class="controls">
+            <label for="datasetSelector">Select Dataset:</label>
+            <select id="datasetSelector">
+                <option value="sales">Monthly Sales</option>
+                <option value="temperature">Temperature Changes</option>
+            </select>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="chart1.js"></script>
+    <script src="chart2.js"></script>
+    <script src="controls.js"></script>
+    <footer>
+        <p>&copy; 2024 by Nishant Sharma<span>❤️</span> </p>
+    </footer>
+</body>
+</html>
+
